@@ -1,11 +1,17 @@
 import Vue from "vue";
 import Vuex from "vuex";
-
-Vue.use(Vuex);
+import Axios from "axios";
+Vue.use(Vuex, Axios);
 
 export default new Vuex.Store({
-  state: {},
+  state: {
+    
+  },
   mutations: {},
-  actions: {},
-  modules: {}
+  actions: {
+  
+  },
+  modules: {
+   
+  }
 });
